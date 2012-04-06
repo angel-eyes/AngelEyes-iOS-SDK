@@ -4,7 +4,7 @@ This source repository includes AngelEyes SDK for iOS, and a sample project so t
 
 How to use the SDK
 --------------------------------------
-1.  First of all, you should get a developer account from [AngelEyes](http://api.angeleyes.it), then create an app. After creating an new app successfully, you can get the app key and secret.
+1.  First of all, you should get a developer account from [AngelEyes](http://www.angeleyes.it), then create an app. After creating an new app successfully, you can get the app key and secret.
 
 2.  AngelEyes iOS SDK requires iOS SDK 3.0+.
 
