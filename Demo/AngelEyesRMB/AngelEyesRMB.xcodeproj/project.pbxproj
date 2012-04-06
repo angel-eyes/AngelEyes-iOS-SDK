@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E051220115099A5C000AA63C /* BlockViewStyle1.m in Sources */ = {isa = PBXBuildFile; fileRef = E05121FC15099A5C000AA63C /* BlockViewStyle1.m */; };
+		E051220315099A5C000AA63C /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E051220015099A5C000AA63C /* CustomAlertView.m */; };
+		E076BCD71526CD6E00DA7775 /* AngelEyes.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCBC1526CD6E00DA7775 /* AngelEyes.m */; };
+		E076BCD81526CD6E00DA7775 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCBF1526CD6E00DA7775 /* NSObject+SBJson.m */; };
+		E076BCD91526CD6E00DA7775 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCC21526CD6E00DA7775 /* SBJsonParser.m */; };
+		E076BCDA1526CD6E00DA7775 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCC41526CD6E00DA7775 /* SBJsonStreamParser.m */; };
+		E076BCDB1526CD6E00DA7775 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCC61526CD6E00DA7775 /* SBJsonStreamParserAccumulator.m */; };
+		E076BCDC1526CD6E00DA7775 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCC81526CD6E00DA7775 /* SBJsonStreamParserAdapter.m */; };
+		E076BCDD1526CD6E00DA7775 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCCA1526CD6E00DA7775 /* SBJsonStreamParserState.m */; };
+		E076BCDE1526CD6E00DA7775 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCCC1526CD6E00DA7775 /* SBJsonStreamWriter.m */; };
+		E076BCDF1526CD6E00DA7775 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCCE1526CD6E00DA7775 /* SBJsonStreamWriterAccumulator.m */; };
+		E076BCE01526CD6E00DA7775 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCD01526CD6E00DA7775 /* SBJsonStreamWriterState.m */; };
+		E076BCE11526CD6E00DA7775 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCD21526CD6E00DA7775 /* SBJsonTokeniser.m */; };
+		E076BCE21526CD6E00DA7775 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCD41526CD6E00DA7775 /* SBJsonUTF8Stream.m */; };
+		E076BCE31526CD6E00DA7775 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E076BCD61526CD6E00DA7775 /* SBJsonWriter.m */; };
+		E0A6471F14F4824B00285F0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A6471E14F4824B00285F0F /* UIKit.framework */; };
+		E0A6472114F4824B00285F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A6472014F4824B00285F0F /* Foundation.framework */; };
+		E0A6472314F4824B00285F0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A6472214F4824B00285F0F /* CoreGraphics.framework */; };
+		E0A6472914F4824B00285F0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0A6472714F4824B00285F0F /* InfoPlist.strings */; };
+		E0A6472B14F4824B00285F0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A6472A14F4824B00285F0F /* main.m */; };
+		E0A6472F14F4824B00285F0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A6472E14F4824B00285F0F /* AppDelegate.m */; };
+		E0A6473214F4824B00285F0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A6473114F4824B00285F0F /* ViewController.m */; };
+		E0A6473514F4824B00285F0F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0A6473314F4824B00285F0F /* ViewController.xib */; };
+		E0A9C66A1527F2A300BE1E02 /* BlockViewStyle3.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A9C6691527F2A300BE1E02 /* BlockViewStyle3.m */; };
+		E0A9C6AA1528236D00BE1E02 /* angeleyes01.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6921528236D00BE1E02 /* angeleyes01.png */; };
+		E0A9C6AB1528236D00BE1E02 /* angeleyes02.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6931528236D00BE1E02 /* angeleyes02.png */; };
+		E0A9C6AC1528236D00BE1E02 /* angeleyes03.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6941528236D00BE1E02 /* angeleyes03.png */; };
+		E0A9C6AD1528236D00BE1E02 /* angeleyes04.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6951528236D00BE1E02 /* angeleyes04.png */; };
+		E0A9C6AE1528236D00BE1E02 /* angeleyes05.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6961528236D00BE1E02 /* angeleyes05.png */; };
+		E0A9C6AF1528236D00BE1E02 /* angeleyes06.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6971528236D00BE1E02 /* angeleyes06.png */; };
+		E0A9C6B01528236D00BE1E02 /* angeleyes07.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6981528236D00BE1E02 /* angeleyes07.png */; };
+		E0A9C6B11528236D00BE1E02 /* angeleyes08.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6991528236D00BE1E02 /* angeleyes08.png */; };
+		E0A9C6B21528236D00BE1E02 /* angeleyes09.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C69A1528236D00BE1E02 /* angeleyes09.png */; };
+		E0A9C6B31528236D00BE1E02 /* angeleyes10.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C69B1528236D00BE1E02 /* angeleyes10.png */; };
+		E0A9C6B41528236D00BE1E02 /* angeleyes11.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C69C1528236D00BE1E02 /* angeleyes11.png */; };
+		E0A9C6B51528236D00BE1E02 /* angeleyes12.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C69D1528236D00BE1E02 /* angeleyes12.png */; };
+		E0A9C6B61528236D00BE1E02 /* angeleyes13.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C69E1528236D00BE1E02 /* angeleyes13.png */; };
+		E0A9C6B71528236D00BE1E02 /* angeleyes14.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C69F1528236D00BE1E02 /* angeleyes14.png */; };
+		E0A9C6B81528236D00BE1E02 /* angeleyes15.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6A01528236D00BE1E02 /* angeleyes15.png */; };
+		E0A9C6B91528236D00BE1E02 /* angeleyes16.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6A11528236D00BE1E02 /* angeleyes16.png */; };
+		E0A9C6BA1528236D00BE1E02 /* angeleyes17.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6A21528236D00BE1E02 /* angeleyes17.png */; };
+		E0A9C6BB1528236D00BE1E02 /* angeleyes18.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6A31528236D00BE1E02 /* angeleyes18.png */; };
+		E0A9C6BC1528236D00BE1E02 /* angeleyes19.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6A41528236D00BE1E02 /* angeleyes19.png */; };
+		E0A9C6BD1528236D00BE1E02 /* angeleyes20.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6A51528236D00BE1E02 /* angeleyes20.png */; };
+		E0A9C6BE1528236D00BE1E02 /* angeleyes21.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6A61528236D00BE1E02 /* angeleyes21.png */; };
+		E0A9C6BF1528236D00BE1E02 /* angeleyes22.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6A71528236D00BE1E02 /* angeleyes22.png */; };
+		E0A9C6C01528236D00BE1E02 /* angeleyes23.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6A81528236D00BE1E02 /* angeleyes23.png */; };
+		E0A9C6C11528236D00BE1E02 /* angeleyes24.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A9C6A91528236D00BE1E02 /* angeleyes24.png */; };
+		E0C0A09514F4ED6A000347F8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C0A09414F4ED6A000347F8 /* QuartzCore.framework */; };
+		E0FE3EA9152ED192003D6CC1 /* icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FE3EA8152ED192003D6CC1 /* icon_57x57.png */; };
+		E0FE3EAC152ED19A003D6CC1 /* icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = E0FE3EAB152ED19A003D6CC1 /* icon_114x114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E05121FB15099A5C000AA63C /* BlockViewStyle1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewStyle1.h; sourceTree = "<group>"; };
+		E05121FC15099A5C000AA63C /* BlockViewStyle1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewStyle1.m; sourceTree = "<group>"; };
+		E05121FF15099A5C000AA63C /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		E051220015099A5C000AA63C /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		E076BCBB1526CD6E00DA7775 /* AngelEyes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AngelEyes.h; path = ../../../AngeleEyes/AngelEyes.h; sourceTree = "<group>"; };
+		E076BCBC1526CD6E00DA7775 /* AngelEyes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AngelEyes.m; path = ../../../AngeleEyes/AngelEyes.m; sourceTree = "<group>"; };
+		E076BCBE1526CD6E00DA7775 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		E076BCBF1526CD6E00DA7775 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		E076BCC01526CD6E00DA7775 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		E076BCC11526CD6E00DA7775 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		E076BCC21526CD6E00DA7775 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		E076BCC31526CD6E00DA7775 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		E076BCC41526CD6E00DA7775 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		E076BCC51526CD6E00DA7775 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		E076BCC61526CD6E00DA7775 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		E076BCC71526CD6E00DA7775 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		E076BCC81526CD6E00DA7775 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		E076BCC91526CD6E00DA7775 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		E076BCCA1526CD6E00DA7775 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		E076BCCB1526CD6E00DA7775 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		E076BCCC1526CD6E00DA7775 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		E076BCCD1526CD6E00DA7775 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		E076BCCE1526CD6E00DA7775 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		E076BCCF1526CD6E00DA7775 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		E076BCD01526CD6E00DA7775 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		E076BCD11526CD6E00DA7775 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		E076BCD21526CD6E00DA7775 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		E076BCD31526CD6E00DA7775 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		E076BCD41526CD6E00DA7775 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		E076BCD51526CD6E00DA7775 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		E076BCD61526CD6E00DA7775 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		E0A6471A14F4824B00285F0F /* AngelEyesRMB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelEyesRMB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0A6471E14F4824B00285F0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0A6472014F4824B00285F0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0A6472214F4824B00285F0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0A6472614F4824B00285F0F /* AngelEyesRMB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AngelEyesRMB-Info.plist"; sourceTree = "<group>"; };
+		E0A6472814F4824B00285F0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0A6472A14F4824B00285F0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0A6472C14F4824B00285F0F /* AngelEyesRMB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AngelEyesRMB-Prefix.pch"; sourceTree = "<group>"; };
+		E0A6472D14F4824B00285F0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0A6472E14F4824B00285F0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0A6473014F4824B00285F0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E0A6473114F4824B00285F0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E0A6473414F4824B00285F0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E0A9C6681527F2A300BE1E02 /* BlockViewStyle3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewStyle3.h; sourceTree = "<group>"; };
+		E0A9C6691527F2A300BE1E02 /* BlockViewStyle3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockViewStyle3.m; sourceTree = "<group>"; };
+		E0A9C6921528236D00BE1E02 /* angeleyes01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes01.png; sourceTree = "<group>"; };
+		E0A9C6931528236D00BE1E02 /* angeleyes02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes02.png; sourceTree = "<group>"; };
+		E0A9C6941528236D00BE1E02 /* angeleyes03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes03.png; sourceTree = "<group>"; };
+		E0A9C6951528236D00BE1E02 /* angeleyes04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes04.png; sourceTree = "<group>"; };
+		E0A9C6961528236D00BE1E02 /* angeleyes05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes05.png; sourceTree = "<group>"; };
+		E0A9C6971528236D00BE1E02 /* angeleyes06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes06.png; sourceTree = "<group>"; };
+		E0A9C6981528236D00BE1E02 /* angeleyes07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes07.png; sourceTree = "<group>"; };
+		E0A9C6991528236D00BE1E02 /* angeleyes08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes08.png; sourceTree = "<group>"; };
+		E0A9C69A1528236D00BE1E02 /* angeleyes09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes09.png; sourceTree = "<group>"; };
+		E0A9C69B1528236D00BE1E02 /* angeleyes10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes10.png; sourceTree = "<group>"; };
+		E0A9C69C1528236D00BE1E02 /* angeleyes11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes11.png; sourceTree = "<group>"; };
+		E0A9C69D1528236D00BE1E02 /* angeleyes12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes12.png; sourceTree = "<group>"; };
+		E0A9C69E1528236D00BE1E02 /* angeleyes13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes13.png; sourceTree = "<group>"; };
+		E0A9C69F1528236D00BE1E02 /* angeleyes14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes14.png; sourceTree = "<group>"; };
+		E0A9C6A01528236D00BE1E02 /* angeleyes15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes15.png; sourceTree = "<group>"; };
+		E0A9C6A11528236D00BE1E02 /* angeleyes16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes16.png; sourceTree = "<group>"; };
+		E0A9C6A21528236D00BE1E02 /* angeleyes17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes17.png; sourceTree = "<group>"; };
+		E0A9C6A31528236D00BE1E02 /* angeleyes18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes18.png; sourceTree = "<group>"; };
+		E0A9C6A41528236D00BE1E02 /* angeleyes19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes19.png; sourceTree = "<group>"; };
+		E0A9C6A51528236D00BE1E02 /* angeleyes20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes20.png; sourceTree = "<group>"; };
+		E0A9C6A61528236D00BE1E02 /* angeleyes21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes21.png; sourceTree = "<group>"; };
+		E0A9C6A71528236D00BE1E02 /* angeleyes22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes22.png; sourceTree = "<group>"; };
+		E0A9C6A81528236D00BE1E02 /* angeleyes23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes23.png; sourceTree = "<group>"; };
+		E0A9C6A91528236D00BE1E02 /* angeleyes24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angeleyes24.png; sourceTree = "<group>"; };
+		E0C0A09414F4ED6A000347F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E0FE3EA8152ED192003D6CC1 /* icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_57x57.png; path = ../icon_57x57.png; sourceTree = "<group>"; };
+		E0FE3EAB152ED19A003D6CC1 /* icon_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_114x114.png; path = ../icon_114x114.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0A6471714F4824B00285F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C0A09514F4ED6A000347F8 /* QuartzCore.framework in Frameworks */,
+				E0A6471F14F4824B00285F0F /* UIKit.framework in Frameworks */,
+				E0A6472114F4824B00285F0F /* Foundation.framework in Frameworks */,
+				E0A6472314F4824B00285F0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E05121FA15099A3F000AA63C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E0A9C6681527F2A300BE1E02 /* BlockViewStyle3.h */,
+				E0A9C6691527F2A300BE1E02 /* BlockViewStyle3.m */,
+				E05121FB15099A5C000AA63C /* BlockViewStyle1.h */,
+				E05121FC15099A5C000AA63C /* BlockViewStyle1.m */,
+				E05121FF15099A5C000AA63C /* CustomAlertView.h */,
+				E051220015099A5C000AA63C /* CustomAlertView.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		E076BCBD1526CD6E00DA7775 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E076BCBE1526CD6E00DA7775 /* NSObject+SBJson.h */,
+				E076BCBF1526CD6E00DA7775 /* NSObject+SBJson.m */,
+				E076BCC01526CD6E00DA7775 /* SBJson.h */,
+				E076BCC11526CD6E00DA7775 /* SBJsonParser.h */,
+				E076BCC21526CD6E00DA7775 /* SBJsonParser.m */,
+				E076BCC31526CD6E00DA7775 /* SBJsonStreamParser.h */,
+				E076BCC41526CD6E00DA7775 /* SBJsonStreamParser.m */,
+				E076BCC51526CD6E00DA7775 /* SBJsonStreamParserAccumulator.h */,
+				E076BCC61526CD6E00DA7775 /* SBJsonStreamParserAccumulator.m */,
+				E076BCC71526CD6E00DA7775 /* SBJsonStreamParserAdapter.h */,
+				E076BCC81526CD6E00DA7775 /* SBJsonStreamParserAdapter.m */,
+				E076BCC91526CD6E00DA7775 /* SBJsonStreamParserState.h */,
+				E076BCCA1526CD6E00DA7775 /* SBJsonStreamParserState.m */,
+				E076BCCB1526CD6E00DA7775 /* SBJsonStreamWriter.h */,
+				E076BCCC1526CD6E00DA7775 /* SBJsonStreamWriter.m */,
+				E076BCCD1526CD6E00DA7775 /* SBJsonStreamWriterAccumulator.h */,
+				E076BCCE1526CD6E00DA7775 /* SBJsonStreamWriterAccumulator.m */,
+				E076BCCF1526CD6E00DA7775 /* SBJsonStreamWriterState.h */,
+				E076BCD01526CD6E00DA7775 /* SBJsonStreamWriterState.m */,
+				E076BCD11526CD6E00DA7775 /* SBJsonTokeniser.h */,
+				E076BCD21526CD6E00DA7775 /* SBJsonTokeniser.m */,
+				E076BCD31526CD6E00DA7775 /* SBJsonUTF8Stream.h */,
+				E076BCD41526CD6E00DA7775 /* SBJsonUTF8Stream.m */,
+				E076BCD51526CD6E00DA7775 /* SBJsonWriter.h */,
+				E076BCD61526CD6E00DA7775 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			path = ../../../AngeleEyes/JSON;
+			sourceTree = "<group>";
+		};
+		E0A6470F14F4824A00285F0F = {
+			isa = PBXGroup;
+			children = (
+				E0A6472414F4824B00285F0F /* AngelEyesRMB */,
+				E0A6471D14F4824B00285F0F /* Frameworks */,
+				E0A6471B14F4824B00285F0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A6471B14F4824B00285F0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0A6471A14F4824B00285F0F /* AngelEyesRMB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0A6471D14F4824B00285F0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0C0A09414F4ED6A000347F8 /* QuartzCore.framework */,
+				E0A6471E14F4824B00285F0F /* UIKit.framework */,
+				E0A6472014F4824B00285F0F /* Foundation.framework */,
+				E0A6472214F4824B00285F0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0A6472414F4824B00285F0F /* AngelEyesRMB */ = {
+			isa = PBXGroup;
+			children = (
+				E0C09FEA14F4BA3D000347F8 /* AngelEyes */,
+				E05121FA15099A3F000AA63C /* Common */,
+				E0B31F4914FF1CAE008A625C /* Resources */,
+				E0A6472D14F4824B00285F0F /* AppDelegate.h */,
+				E0A6472E14F4824B00285F0F /* AppDelegate.m */,
+				E0A6473014F4824B00285F0F /* ViewController.h */,
+				E0A6473114F4824B00285F0F /* ViewController.m */,
+				E0A6473314F4824B00285F0F /* ViewController.xib */,
+				E0A6472514F4824B00285F0F /* Supporting Files */,
+			);
+			path = AngelEyesRMB;
+			sourceTree = "<group>";
+		};
+		E0A6472514F4824B00285F0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0A6472614F4824B00285F0F /* AngelEyesRMB-Info.plist */,
+				E0A6472714F4824B00285F0F /* InfoPlist.strings */,
+				E0A6472A14F4824B00285F0F /* main.m */,
+				E0A6472C14F4824B00285F0F /* AngelEyesRMB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0B31F4914FF1CAE008A625C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0FE3EAB152ED19A003D6CC1 /* icon_114x114.png */,
+				E0FE3EA8152ED192003D6CC1 /* icon_57x57.png */,
+				E0A9C6921528236D00BE1E02 /* angeleyes01.png */,
+				E0A9C6931528236D00BE1E02 /* angeleyes02.png */,
+				E0A9C6941528236D00BE1E02 /* angeleyes03.png */,
+				E0A9C6951528236D00BE1E02 /* angeleyes04.png */,
+				E0A9C6961528236D00BE1E02 /* angeleyes05.png */,
+				E0A9C6971528236D00BE1E02 /* angeleyes06.png */,
+				E0A9C6981528236D00BE1E02 /* angeleyes07.png */,
+				E0A9C6991528236D00BE1E02 /* angeleyes08.png */,
+				E0A9C69A1528236D00BE1E02 /* angeleyes09.png */,
+				E0A9C69B1528236D00BE1E02 /* angeleyes10.png */,
+				E0A9C69C1528236D00BE1E02 /* angeleyes11.png */,
+				E0A9C69D1528236D00BE1E02 /* angeleyes12.png */,
+				E0A9C69E1528236D00BE1E02 /* angeleyes13.png */,
+				E0A9C69F1528236D00BE1E02 /* angeleyes14.png */,
+				E0A9C6A01528236D00BE1E02 /* angeleyes15.png */,
+				E0A9C6A11528236D00BE1E02 /* angeleyes16.png */,
+				E0A9C6A21528236D00BE1E02 /* angeleyes17.png */,
+				E0A9C6A31528236D00BE1E02 /* angeleyes18.png */,
+				E0A9C6A41528236D00BE1E02 /* angeleyes19.png */,
+				E0A9C6A51528236D00BE1E02 /* angeleyes20.png */,
+				E0A9C6A61528236D00BE1E02 /* angeleyes21.png */,
+				E0A9C6A71528236D00BE1E02 /* angeleyes22.png */,
+				E0A9C6A81528236D00BE1E02 /* angeleyes23.png */,
+				E0A9C6A91528236D00BE1E02 /* angeleyes24.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E0C09FEA14F4BA3D000347F8 /* AngelEyes */ = {
+			isa = PBXGroup;
+			children = (
+				E076BCBB1526CD6E00DA7775 /* AngelEyes.h */,
+				E076BCBC1526CD6E00DA7775 /* AngelEyes.m */,
+				E076BCBD1526CD6E00DA7775 /* JSON */,
+			);
+			name = AngelEyes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0A6471914F4824B00285F0F /* AngelEyesRMB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0A6473814F4824B00285F0F /* Build configuration list for PBXNativeTarget "AngelEyesRMB" */;
+			buildPhases = (
+				E0A6471614F4824B00285F0F /* Sources */,
+				E0A6471714F4824B00285F0F /* Frameworks */,
+				E0A6471814F4824B00285F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngelEyesRMB;
+			productName = AngelEyesRMB;
+			productReference = E0A6471A14F4824B00285F0F /* AngelEyesRMB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0A6471114F4824A00285F0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E0A6471414F4824A00285F0F /* Build configuration list for PBXProject "AngelEyesRMB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0A6470F14F4824A00285F0F;
+			productRefGroup = E0A6471B14F4824B00285F0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0A6471914F4824B00285F0F /* AngelEyesRMB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0A6471814F4824B00285F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A6472914F4824B00285F0F /* InfoPlist.strings in Resources */,
+				E0A6473514F4824B00285F0F /* ViewController.xib in Resources */,
+				E0A9C6AA1528236D00BE1E02 /* angeleyes01.png in Resources */,
+				E0A9C6AB1528236D00BE1E02 /* angeleyes02.png in Resources */,
+				E0A9C6AC1528236D00BE1E02 /* angeleyes03.png in Resources */,
+				E0A9C6AD1528236D00BE1E02 /* angeleyes04.png in Resources */,
+				E0A9C6AE1528236D00BE1E02 /* angeleyes05.png in Resources */,
+				E0A9C6AF1528236D00BE1E02 /* angeleyes06.png in Resources */,
+				E0A9C6B01528236D00BE1E02 /* angeleyes07.png in Resources */,
+				E0A9C6B11528236D00BE1E02 /* angeleyes08.png in Resources */,
+				E0A9C6B21528236D00BE1E02 /* angeleyes09.png in Resources */,
+				E0A9C6B31528236D00BE1E02 /* angeleyes10.png in Resources */,
+				E0A9C6B41528236D00BE1E02 /* angeleyes11.png in Resources */,
+				E0A9C6B51528236D00BE1E02 /* angeleyes12.png in Resources */,
+				E0A9C6B61528236D00BE1E02 /* angeleyes13.png in Resources */,
+				E0A9C6B71528236D00BE1E02 /* angeleyes14.png in Resources */,
+				E0A9C6B81528236D00BE1E02 /* angeleyes15.png in Resources */,
+				E0A9C6B91528236D00BE1E02 /* angeleyes16.png in Resources */,
+				E0A9C6BA1528236D00BE1E02 /* angeleyes17.png in Resources */,
+				E0A9C6BB1528236D00BE1E02 /* angeleyes18.png in Resources */,
+				E0A9C6BC1528236D00BE1E02 /* angeleyes19.png in Resources */,
+				E0A9C6BD1528236D00BE1E02 /* angeleyes20.png in Resources */,
+				E0A9C6BE1528236D00BE1E02 /* angeleyes21.png in Resources */,
+				E0A9C6BF1528236D00BE1E02 /* angeleyes22.png in Resources */,
+				E0A9C6C01528236D00BE1E02 /* angeleyes23.png in Resources */,
+				E0A9C6C11528236D00BE1E02 /* angeleyes24.png in Resources */,
+				E0FE3EA9152ED192003D6CC1 /* icon_57x57.png in Resources */,
+				E0FE3EAC152ED19A003D6CC1 /* icon_114x114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0A6471614F4824B00285F0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A6472B14F4824B00285F0F /* main.m in Sources */,
+				E0A6472F14F4824B00285F0F /* AppDelegate.m in Sources */,
+				E0A6473214F4824B00285F0F /* ViewController.m in Sources */,
+				E051220115099A5C000AA63C /* BlockViewStyle1.m in Sources */,
+				E051220315099A5C000AA63C /* CustomAlertView.m in Sources */,
+				E076BCD71526CD6E00DA7775 /* AngelEyes.m in Sources */,
+				E076BCD81526CD6E00DA7775 /* NSObject+SBJson.m in Sources */,
+				E076BCD91526CD6E00DA7775 /* SBJsonParser.m in Sources */,
+				E076BCDA1526CD6E00DA7775 /* SBJsonStreamParser.m in Sources */,
+				E076BCDB1526CD6E00DA7775 /* SBJsonStreamParserAccumulator.m in Sources */,
+				E076BCDC1526CD6E00DA7775 /* SBJsonStreamParserAdapter.m in Sources */,
+				E076BCDD1526CD6E00DA7775 /* SBJsonStreamParserState.m in Sources */,
+				E076BCDE1526CD6E00DA7775 /* SBJsonStreamWriter.m in Sources */,
+				E076BCDF1526CD6E00DA7775 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				E076BCE01526CD6E00DA7775 /* SBJsonStreamWriterState.m in Sources */,
+				E076BCE11526CD6E00DA7775 /* SBJsonTokeniser.m in Sources */,
+				E076BCE21526CD6E00DA7775 /* SBJsonUTF8Stream.m in Sources */,
+				E076BCE31526CD6E00DA7775 /* SBJsonWriter.m in Sources */,
+				E0A9C66A1527F2A300BE1E02 /* BlockViewStyle3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0A6472714F4824B00285F0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0A6472814F4824B00285F0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E0A6473314F4824B00285F0F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0A6473414F4824B00285F0F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0A6473614F4824B00285F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0A6473714F4824B00285F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0A6473914F4824B00285F0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yu chuan (A9FQ53NVN8)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngelEyesRMB/AngelEyesRMB-Prefix.pch";
+				INFOPLIST_FILE = "AngelEyesRMB/AngelEyesRMB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AngelEyesRMB\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4D9C7261-68C3-4D3E-82A0-73C6ED2FC278";
+				USER_HEADER_SEARCH_PATHS = ../AngelEyesLib/AngelEyesLib/OpenCV/include;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0A6473A14F4824B00285F0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yu chuan (A9FQ53NVN8)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AngelEyesRMB/AngelEyesRMB-Prefix.pch";
+				INFOPLIST_FILE = "AngelEyesRMB/AngelEyesRMB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AngelEyesRMB\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4D9C7261-68C3-4D3E-82A0-73C6ED2FC278";
+				USER_HEADER_SEARCH_PATHS = ../AngelEyesLib/AngelEyesLib/OpenCV/include;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0A6471414F4824A00285F0F /* Build configuration list for PBXProject "AngelEyesRMB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A6473614F4824B00285F0F /* Debug */,
+				E0A6473714F4824B00285F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0A6473814F4824B00285F0F /* Build configuration list for PBXNativeTarget "AngelEyesRMB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0A6473914F4824B00285F0F /* Debug */,
+				E0A6473A14F4824B00285F0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0A6471114F4824A00285F0F /* Project object */;
+}
