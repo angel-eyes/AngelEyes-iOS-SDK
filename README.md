@@ -14,7 +14,7 @@ How to use the SDK
 
 The sample project
 -----------------
-The sample projct is named AngelEyesRMB, it is builded on XCode 4.2, based iOS SDK 5.0. The deployment target is iOS 3.0, so the sample can work on iOS 3.0+ Devices.
+The sample project is named AngelEyesRMB, it is builded on XCode 4.2, based iOS SDK 5.0. The deployment target is iOS 3.0, so the sample can work on iOS 3.0+ Devices.
 
 We also release the sample app to App Store, you can view it from [here](http://itunes.apple.com/us/app/ren-qian-bu-ren-ren/id517196509?ls=1&mt=8).
 
