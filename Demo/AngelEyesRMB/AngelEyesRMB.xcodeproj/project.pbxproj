@@ -473,7 +473,8 @@
 		E0A6473914F4824B00285F0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yu chuan (A9FQ53NVN8)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AngelEyesRMB/AngelEyesRMB-Prefix.pch";
 				INFOPLIST_FILE = "AngelEyesRMB/AngelEyesRMB-Info.plist";
@@ -483,7 +484,8 @@
 					"\"$(SRCROOT)/AngelEyesRMB\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4D9C7261-68C3-4D3E-82A0-73C6ED2FC278";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				USER_HEADER_SEARCH_PATHS = ../AngelEyesLib/AngelEyesLib/OpenCV/include;
 				WRAPPER_EXTENSION = app;
 			};
@@ -492,7 +494,8 @@
 		E0A6473A14F4824B00285F0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yu chuan (A9FQ53NVN8)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AngelEyesRMB/AngelEyesRMB-Prefix.pch";
 				INFOPLIST_FILE = "AngelEyesRMB/AngelEyesRMB-Info.plist";
@@ -502,7 +505,8 @@
 					"\"$(SRCROOT)/AngelEyesRMB\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "4D9C7261-68C3-4D3E-82A0-73C6ED2FC278";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				USER_HEADER_SEARCH_PATHS = ../AngelEyesLib/AngelEyesLib/OpenCV/include;
 				WRAPPER_EXTENSION = app;
 			};

@@ -160,11 +160,11 @@
 }
 
 - (NSDictionary *)sendIdentificationRequest:(NSData *)postData error:(NSError **)err{    
-    NSString *url = @"http://vm-192-168-21-113.shengyun.grandcloud.cn/identify.json";
+    NSString *url = @"http://api.angeleyes.it/identify.json";
     
     NSMutableURLRequest* request =[NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]
                                                           cachePolicy:NSURLRequestReloadIgnoringLocalCacheData
-                                                      timeoutInterval:20];
+                                                      timeoutInterval:5];
     [request setHTTPMethod:@"POST"];
     
     NSString* contentType = [NSString
